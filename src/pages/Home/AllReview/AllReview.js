@@ -21,7 +21,7 @@ const AllReview = () => {
             <div className="row row-cols-1 row-cols-md-3 g-2 my-3">
                 {
                     reviews.map(review => <div className="col" key={review?._id}>
-                        <div style={{backgroundColor: '#EBEBF2', color: '#1b1b1b'}} className="p-4 rounded custom-card d-flex flex-column justify-content-center align-items-center">
+                        <div style={{backgroundColor: '#EBEBF2', color: '#1b1b1b'}} className="p-4 rounded custom-card d-flex flex-column align-items-center">
                             <div><i style={{color: '#DEE2F4', fontSize: '60px'}} className="fas fa-quote-right"></i></div>
                             <h5><b>{review?.name || user?.name}</b></h5>
                             <Rating 
