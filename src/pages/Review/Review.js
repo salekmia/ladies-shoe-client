@@ -18,7 +18,7 @@ const Review = () => {
     console.log(review)
 
     const handleReviewSubmit = e => {
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://vast-mesa-86582.herokuapp.com/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -10,7 +10,7 @@ const MyOrders = () => {
     
     
     useEffect(() => {
-        fetch('http://localhost:5000/orders')
+        fetch('https://vast-mesa-86582.herokuapp.com/orders')
         .then(res => res.json())
         .then(data => {
             setOrders(data)
@@ -20,7 +20,7 @@ const MyOrders = () => {
     const handleDeleteOrder = id => {
         const procced = window.confirm('Are you sure? You want to delete.')
         if(procced) {
-           fetch(`http://localhost:5000/orders/${id}`, {
+           fetch(`https://vast-mesa-86582.herokuapp.com/orders/${id}`, {
             method: 'DELETE',
             headers: {
                 'content-type': 'application/json'

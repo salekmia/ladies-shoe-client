@@ -76,7 +76,7 @@ const Dashboard = (props) => {
 
   const container = window !== undefined ? () => window().document.body : undefined;
     return (
-        <div className="container">
+        <div>
             <Box sx={{ display: 'flex' }}>
             <CssBaseline />
             

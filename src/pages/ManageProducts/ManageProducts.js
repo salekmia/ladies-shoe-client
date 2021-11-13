@@ -6,7 +6,7 @@ const ManageProducts = () => {
     const [products, setProducts] = useState([])
     const [deleteProduct, setDeleteProduct] = useState(false)
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://vast-mesa-86582.herokuapp.com/products')
         .then(res => res.json())
         .then(data => {
             setProducts(data)
@@ -16,7 +16,7 @@ const ManageProducts = () => {
     const handleDeleteProduct = id => {
         const procced = window.confirm('Are you sure? You want to delete.')
         if(procced) {
-           fetch(`http://localhost:5000/products/${id}`, {
+           fetch(`https://vast-mesa-86582.herokuapp.com/products/${id}`, {
             method: 'DELETE',
             headers: {
                 'content-type': 'application/json'

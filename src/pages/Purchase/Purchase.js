@@ -12,7 +12,7 @@ const Purchase = () => {
     const {productId} = useParams()
     const [order, SetOrder] = useState({})
     useEffect(()=> {
-        fetch(`http://localhost:5000/products/${productId}`)
+        fetch(`https://vast-mesa-86582.herokuapp.com/products/${productId}`)
         .then(res => res.json())
         .then(data => {
             setProduct(data)
@@ -32,7 +32,7 @@ const Purchase = () => {
     }
 
     const handleOrderSubmit = e => {
-        fetch('http://localhost:5000/orders', {
+        fetch('https://vast-mesa-86582.herokuapp.com/orders', {
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'

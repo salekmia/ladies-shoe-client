@@ -14,7 +14,7 @@ const Login = () => {
     const [error, setError] = useState('')
     const location = useLocation();
     const history = useHistory();
-    const redirect_uri = location.state?.from || '/home'
+    const redirect_uri = location.state?.from || '/dashboard'
     console.log(user)
 
     const googleLoginHandle = () => {

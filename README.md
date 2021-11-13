@@ -1,8 +1,8 @@
 <h1 align="center">Ladies Shoe</h1>
 
-Project live site link [Ladies Shoe](https://world-travel-assignment-11.web.app/).
+Project live site link [Ladies Shoe](https://ladies-shoe-assignment-12.web.app/).
 
-Backend or server site github code link [Bankend code](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-salekmia).
+Backend or server site github code link [Bankend code](https://github.com/programming-hero-web-course-4/niche-website-server-side-salekmia).
 
 <h2 align="center">Benefits of this project</h2>
 

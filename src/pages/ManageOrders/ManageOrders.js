@@ -6,7 +6,7 @@ const ManageOrders = () => {
     const [orders, setOrders] = useState([])
     const [deleteOrder, setDeleteOrder] = useState(false)
     useEffect(()=> {
-        fetch('http://localhost:5000/orders')
+        fetch('https://vast-mesa-86582.herokuapp.com/orders')
         .then(res => res.json())
         .then(data => {
             setOrders(data)
@@ -16,7 +16,7 @@ const ManageOrders = () => {
     const handleDeleteOrder = id => {
         const procced = window.confirm('Are you sure? You want to delete.')
         if(procced) {
-           fetch(`http://localhost:5000/orders/${id}`, {
+           fetch(`https://vast-mesa-86582.herokuapp.com/orders/${id}`, {
             method: 'DELETE',
             headers: {
                 'content-type': 'application/json'
@@ -45,7 +45,7 @@ const ManageOrders = () => {
     // const handleUpdateStatus = id => {
     //     const procced = window.confirm('You are going to approve it!')
     //     if(procced) {
-    //         const url = `http://localhost:5000/orders/${id}`
+    //         const url = `https://vast-mesa-86582.herokuapp.com/orders/${id}`
     //         axios.put(url, {
     //             status: "Shipped"
     //         })
@@ -56,7 +56,7 @@ const ManageOrders = () => {
 
     const handleUpdateStatus = id => {
         const order = {status: 'Shipped'}
-        const url = `http://localhost:5000/orders/${id}`
+        const url = `https://vast-mesa-86582.herokuapp.com/orders/${id}`
         fetch(url, {
             method: 'PUT',
             headers: {
@@ -85,7 +85,7 @@ const ManageOrders = () => {
     
 
     return (
-        <div>
+        <div className="container">
             <h3 className="text-center mb-5">Manage all <span className="text-primary">orders</span></h3>
             <div>
                 {

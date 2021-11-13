@@ -12,7 +12,7 @@ const AddProduct = () => {
         setProduct(newProduct)
     }
     const handleProductSubmit = e => {
-        fetch('http://localhost:5000/products', {
+        fetch('https://vast-mesa-86582.herokuapp.com/products', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -37,7 +37,7 @@ const AddProduct = () => {
         e.preventDefault()
     }
     return (
-        <div>
+        <div className="container">
             <div className="border rounded p-4">
                 <h4 className="fw-bold text-center">Add a new products</h4>
                 <form onSubmit={handleProductSubmit}>
