@@ -1,0 +1,14 @@
+.container-bg {
+    background-color: #021624;
+}
+
+.item-bg {
+    background-color: #1C2F3C;
+    padding: 15px;
+}
+
+.icon-container {
+    border: 2px solid #8bc34a;
+    padding: 10px;
+    color: #8bc34a;
+}

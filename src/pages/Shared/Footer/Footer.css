@@ -1,0 +1,31 @@
+#footer {
+    background-color: #1D232F;
+    padding: 50px 0;
+}
+
+#footer h4 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#footer a, #footer p {
+    text-decoration: none;
+    color: #8792a1;
+    margin: 5px 0;
+}
+
+#footer ul li {
+    margin-right: 10px
+}
+
+#footer ul li a {
+    font-size: 30px;
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+#footer input {
+    color: #8792a1;
+}
