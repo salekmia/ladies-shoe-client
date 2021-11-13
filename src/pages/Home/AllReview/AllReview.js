@@ -12,7 +12,7 @@ const AllReview = () => {
             setReviews(data)
         })
     }, [])
-    console.log(reviews)
+    
     return (
         <div className="container my-5">
             <h3 className="my-3 text-center">Customer <span className="text-primary">Reviews</span></h3>

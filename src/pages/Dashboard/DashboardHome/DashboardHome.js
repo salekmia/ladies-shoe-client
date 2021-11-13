@@ -7,7 +7,6 @@ const DashboardHome = () => {
 
 
     
-    console.log(admin)
     
 
     return (

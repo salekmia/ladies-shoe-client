@@ -65,14 +65,14 @@ const Footer = () => {
                         <h4>Ladies Shoe</h4>
                         <p>Product text includes any content that is used to describe a product. Product descriptions are the most common example, but there are other forms of this kind of text that include advertorials, blog posts, and reviews.</p>
                         <ul className="d-flex">
-                            <li><a href="/"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="/"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/salekalways" rel="noreferrer"><i className="fab fa-facebook-square"></i></a></li>
+                            <li><a target="_blank" href="https://twitter.com/codersalek" rel="noreferrer"><i className="fab fa-twitter"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/salekalways/" rel="noreferrer"><i className="fab fa-instagram"></i></a></li>
                         </ul>
                         <p>Get our emails on inspiration and tips to grow your creative business.</p>
-                        <div class="input-group my-3">
+                        <div className="input-group my-3">
                             <input type="text" className="form-control bg-transparent" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                            <button class="btn btn-primary" type="button" id="button-addon2">Button</button>
+                            <button className="btn btn-primary" type="button" id="button-addon2">Button</button>
                         </div>
                     </div>
                 </div>

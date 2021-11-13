@@ -8,14 +8,14 @@ import useAuth from '../../../hooks/useAuth';
 import Header from '../../Shared/Header/Header';
 import './Login.css';
 const Login = () => {
-    const {signInUsignGoogle, signInUsingPassword, user, saveUser} = useAuth()
+    const {signInUsignGoogle, signInUsingPassword, saveUser} = useAuth()
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [error, setError] = useState('')
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/dashboard'
-    console.log(user)
+    
 
     const googleLoginHandle = () => {
         signInUsignGoogle()

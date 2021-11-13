@@ -17,7 +17,7 @@ const Register = () => {
 
     const location = useLocation();
     const history = useHistory();
-    const redirect_uri = location.state?.from || '/dashboard'
+    const redirect_uri = location.state?.from || '/'
 
     const googleLoginHandle = () => {
         signInUsignGoogle()
@@ -39,6 +39,7 @@ const Register = () => {
             .then(()=> {
                 setUser({...user, displayName:name})
                 saveUser(email, name, 'POST')
+                window.location.reload()
             })
         })
         .catch(error =>{

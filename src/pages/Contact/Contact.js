@@ -16,7 +16,7 @@ const Contact = () => {
                     <div className="col-md-6">
                         <div className="d-flex align-items-center contact-icon-container shadow-lg rounded m-4">
                             <div className="contact-icon">
-                                <i class="fas fa-phone fs-1"></i>
+                                <i className="fas fa-phone fs-1"></i>
                             </div>
                             <div>
                                 <h4>Phone</h4>
@@ -25,7 +25,7 @@ const Contact = () => {
                         </div>
                         <div className="d-flex align-items-center contact-icon-container shadow-lg rounded m-4">
                             <div className="contact-icon">
-                                <i class="fas fa-phone fs-1"></i>
+                                <i className="fas fa-phone fs-1"></i>
                             </div>
                             <div>
                                 <h4>Email</h4>
@@ -34,7 +34,7 @@ const Contact = () => {
                         </div>
                         <div className="d-flex align-items-center contact-icon-container shadow-lg rounded m-4">
                             <div className="contact-icon">
-                                <i class="fas fa-phone fs-1"></i>
+                                <i className="fas fa-phone fs-1"></i>
                             </div>
                             <div>
                                 <h4>Phone</h4>

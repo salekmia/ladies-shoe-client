@@ -9,7 +9,7 @@ const Header = () => {
         <>
             <div className="container">
                 <div id="top-header" className="d-none d-md-flex justify-content-between align-items-center">
-                    <p>Welcome to PIVAO.COM- 24/7 Support | Fast Delivery!</p>
+                    <p>Welcome to Ladies Shoe- 24/7 Support | Fast Delivery!</p>
                     <p><i className="fas fa-phone"></i> +880 1859650251</p>
                     <p><i className="far fa-envelope"></i> support@ladiesshoe.com</p>
                     <p><a target="_blank" href="https://www.facebook.com/salekalways" rel="noreferrer">FB Page</a> | <a target="_blank" href="https://www.facebook.com/salekalways" rel="noreferrer">FB Group</a></p>
