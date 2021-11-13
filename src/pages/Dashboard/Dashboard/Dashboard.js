@@ -156,6 +156,7 @@ const Dashboard = (props) => {
                     </Route>
 
                     {/* only admin can see this */}
+                {admin && <div>
                     <AdminRoute path={`${path}/manageOrders`}>
                         <ManageOrders></ManageOrders>
                     </AdminRoute>
@@ -168,6 +169,7 @@ const Dashboard = (props) => {
                     <AdminRoute path={`${path}/manageProducts`}>
                         <ManageProducts></ManageProducts>
                     </AdminRoute>
+                    </div>}
 
                 </Switch>
             </Box>
