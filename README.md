@@ -6,6 +6,14 @@ Backend or server site github code link [Bankend code](https://github.com/progra
 
 <h2 align="center">Benefits of this project</h2>
 
+* If users login then they can go to the dashboard and manage some tasks. Like he can see
+my orders, pay, add a review. Reviews are dynamic. After reviewing, the reviews will be
+added to the review section of the home page.
+* Admin can make another user an admin, if he wants.
+* There is an Admin panel. An admin can also manage some tasks. Like adding products,
+managing products, managing orders etc.
+* If the user doesn't login, click the purchase button then he will go to the login page. And
+after login success he will go to the purchase page automatically.
 * This website helps to buy ladies shoe
 * There are world faouse ladies shoe in our shop and anyone can buy from home.
 * Anyone can pre order from this web site.
